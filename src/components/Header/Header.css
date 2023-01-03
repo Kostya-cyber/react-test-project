@@ -1,0 +1,43 @@
+.header_component {
+  height: 89px;
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.nav_component {
+  font-family: "LatoBold";
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.nav_component a {
+  transition: all 0.1s ease-in;
+}
+
+.nav_component a:hover {
+  color: red;
+}
+
+.container {
+  background-color: #2d303a;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_component div::after {
+  content: "·";
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.nav_component div:last-child::after {
+  content: "";
+}

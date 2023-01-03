@@ -1,0 +1,15 @@
+.slider_container {
+  display: flex;
+  justify-content: center;
+  height: 594px;
+  background-color: #f06c64;
+}
+
+.slider {
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.block_description {
+  width: 220px;
+  height: 77px;
+}
+
+.block_container {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.block_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
